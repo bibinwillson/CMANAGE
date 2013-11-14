@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  ip: 
+  username: MyString
+  password: MyString
+  key: MyString
+
+two:
+  ip: 
+  username: MyString
+  password: MyString
+  key: MyString

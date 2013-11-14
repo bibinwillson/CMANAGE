@@ -1,12 +1,18 @@
 Chefplugin::Application.routes.draw do
   
+  resources :nodes
+  
+  get "nodes/new"
+
+  get "nodes/show"
+
   get "users/new"
 
   #root to: 'static_pages#home'
    root :to =>  "static_pages#home"
    # root :to => "pages#index"
   
-   match '/signup', to: 'users#new', via: 'get'
+   match '/addnode', to: 'nodes#new', via: 'get'
 
   
   match '/about', to: 'static_pages#about' 
